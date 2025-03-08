@@ -1,0 +1,44 @@
+{
+  "buildId": "build-123",
+  "timestamp": "2025-03-07T07:48:03.988712",
+  "environment": "production",
+  "repository": "unknown",
+  "branch": "unknown",
+  "commit": "unknown",
+  "valid": false,
+  "environmentData": {
+    "os": "Windows 10",
+    "kernel": "10.0.22631",
+    "architecture": "AMD64",
+    "hostname": "DESKTOP-1NHQSUD",
+    "packages": {
+      "docker": "27.5.1",
+      "docker-compose": "version"
+    },
+    "environmentVariables": {
+      "NODE_ENV": true,
+      "BUILD_ID": true,
+      "GIT_COMMIT": true
+    }
+  },
+  "verificationResults": [
+    {
+      "check": "Environment Integrity",
+      "description": "Verifies OS and kernel versions match expected values",
+      "pass": false,
+      "errorDetails": "OS 'Windows 10' is not in the allowed list: Ubuntu 22.04, Ubuntu 20.04, Amazon Linux 2"
+    },
+    {
+      "check": "Package Verification",
+      "description": "Checks installed packages against allowed versions",
+      "pass": true,
+      "errorDetails": "Detected unauthorized packages: docker@27.5.1, docker-compose@version"
+    },
+    {
+      "check": "Environment Variables",
+      "description": "Verifies required environment variables are present",
+      "pass": true
+    }
+  ],
+  "signature": "d78E2Otly3ojguH+ucYxVWx7RiCRodzn/aj9+AwnskQ="
+}

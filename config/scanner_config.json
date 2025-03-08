@@ -1,0 +1,6 @@
+{
+    "required_env_vars": ["NODE_ENV", "BUILD_ID", "GIT_COMMIT"],
+    "allowed_packages": {},
+    "environment_name": "production",
+    "hash_algorithm": "sha256"
+  }

@@ -1,0 +1,23 @@
+{
+  "buildId": "build-1741461253",
+  "timestamp": "2025-03-08T19:14:14.029721",
+  "environment": "production",
+  "repository": "unknown",
+  "branch": "unknown",
+  "commit": "unknown",
+  "environmentData": {
+    "os": "Windows 10",
+    "kernel": "10.0.22631",
+    "architecture": "AMD64",
+    "hostname": "DESKTOP-1NHQSUD",
+    "packages": {
+      "docker": "27.5.1",
+      "docker-compose": "version"
+    },
+    "environmentVariables": {
+      "NODE_ENV": false,
+      "BUILD_ID": false,
+      "GIT_COMMIT": false
+    }
+  }
+}
